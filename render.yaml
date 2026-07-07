@@ -1,0 +1,9 @@
+services:
+  - type: web
+    runtime: docker
+    name: observability-fastapi
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "8080"
