@@ -49,7 +49,7 @@ async def observability_middleware(request: Request, call_next):
 # ---------------------------------------------------------------------------
 @app.get("/work")
 async def work(n: int = Query(default=1)):
-    return {"email": "_", "done": n}
+    return {"email": "24f2006027@ds.study.iitm.ac.in", "done": n}
 
 
 # ---------------------------------------------------------------------------
